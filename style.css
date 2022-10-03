@@ -1,0 +1,411 @@
+*{
+    color: white;
+    box-sizing: border-box !important;
+}
+
+ul{
+    list-style: none;
+}
+.JumboJumbo{
+    width: 100%;
+    background: rgb(74, 71, 71);
+    padding: 0 1em;
+}
+.container-of-jumbotron{
+    width: 100%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: white;
+    opacity: 0.7;
+}
+.right-section{
+    background: rgb(16, 4, 4);
+}
+/* Left Section */
+.left-section{
+    background: rgb(74, 71, 71);
+    
+}
+.left-section .left-section-div{
+    margin-bottom: 50px;
+}
+.left-section div.left-section-div{
+    margin-left: 5px;
+}
+.left-section div h6{
+    font-weight: 900;
+}
+.left-section div ul{
+    padding-left: 0;
+}
+.storage{
+    display: none;
+    background: rgb(36, 35, 35);
+    padding: 10px 5px 10px 5px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+/* NavBar */
+.row-row{
+    height: 50px;
+}
+.header ul{
+    list-style: none;
+    align-items: center;
+    margin-bottom: 0;
+    font-size: 1.5vw;
+}
+.header ul.header-left li{
+    margin-right: 10px;
+}
+#input{
+    width: 20vw;
+    height: 30px;
+    font-size: 1.5vw;
+    background: rgb(36, 35, 35);
+    border: 1px solid white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.user-information{
+    margin-right: 20px;
+}
+#name-of-user{
+    margin-right: 0 !important;
+}
+/* Slideshow */
+.slideshow{
+    background: none;
+}
+.slideshow div.hide{
+    width: 100%;
+}
+.slideshow div.hide .text-area h6{
+    font-size: 3vw;
+}
+.slideshow .hide .text-area h3{
+    font-size: 4vw;
+    font-weight: 900;
+}
+.slideshow .hide .btn-slideshow-color, .slideshow .hide .btn-slideshow-color-span{
+    font-size: 1.6vw;
+}
+.slideshow .hide .btn-slideshow-color{
+    background: rgb(31, 162, 189);
+    /* border: 1px solid white; */
+    box-shadow: 5px 5px 5px 0 rgb(31, 162, 189) inset, -5px -5px 10px 0 rgb(16, 4, 4, 0.6) inset;
+}
+
+.slideshow .hide .btn-slideshow-color-span{
+    background: white;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px 0 #fff inset, -5px -5px 10px 0 rgb(0, 0, 0, 0.6) inset;
+}
+.image img{
+    height: 400px;
+}
+.hide{
+    display: none;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+}
+.hide-containing-container{
+    width: 100%;
+}
+/* ANimation */
+@keyframes fade{
+    from{opacity: 0.4}
+    to{opacity: 1}
+}
+/* Music Details */
+div.card{
+    background: rgb(36, 35, 35);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+div.card ul{
+    padding-left: 0;
+}
+div.card .card-body div{
+    margin-right: 20px;
+}
+.card .card-body .card-body-details img{
+    width: 40vw;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+div.card .card-body div:last-child{
+    margin-right: 0;
+}
+.card .card-body .card-body-details h5{
+    font-size: 1.7vw;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.card .card-body .card-body-details h6{
+    font-size: 1.2vw;
+}
+
+/* Right Hand Side img */
+.right-hand-side-container{
+    background: rgb(36, 35, 35);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.right-hand-side ul li h6{
+    font-size: 1.5vw;
+    font-weight: 900;
+}
+#music-playing-id{
+    cursor: pointer;
+}
+.right-hand-side-img{
+    width: 15vw;
+}
+.right-hand-side .right-hand-side-playing-information h5{
+    font-size: 2.5vw;
+    font-weight: 800;
+}
+.right-hand-side .right-hand-side-playing-information h6{
+    font-size: 1.7vw;
+}
+.right-hand-side .play-button-and-stuff .btn{
+    width: 4vw;
+    height: 50px;
+    padding: 0 12px;
+    box-shadow: 5px 5px 10px 0 #fff inset, -5px -5px 10px 0 rgb(16, 4, 4, 0.6) inset;
+}
+.right-hand-side .play-button-and-stuff .btn{
+    margin-right: 2px;
+}
+.right-hand-side .play-button-and-stuff #play{
+    width: 6vw;
+}
+.right-hand-side .play-button-and-stuff{
+    padding: 0 50px;
+}
+/* Play Button and stuff */
+.repeat-1{
+    content: url("./bootstrap-icons-1.9.1/repeat-1.svg");
+    width: 50px;
+}
+.pause{
+    content: url("./bootstrap-icons-1.9.1/pause.svg");
+}
+/* .lyrics-container{
+    margin-top: 70px;
+} */
+.lyrics{
+    font-size: 2vw;
+}
+/*/* Media Queries TO adjust some things */
+@media screen and (max-width: 1199px) {
+    .right-hand-side-playing-information{
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .right-hand-side-container .lyrics-container{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 991px){
+    #text-area{
+        transform: translateX(-3em);
+        -webkit-transform: translateX(-3em);
+        -moz-transform: translateX(-3em);
+        -ms-transform: translateX(-3em);
+        -o-transform: translateX(-3em);
+    }
+    .right-hand-side-playing-information img{
+        height: 150px;
+    }
+    .right-hand-side-container .lyrics-container{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 989px) {
+    .right-hand-side .play-button-and-stuff .btn{
+        width: 39px;
+    }
+    .right-hand-side .play-button-and-stuff{
+        padding: 0 90px;
+    }
+}
+@media screen and (max-width: 843px) {
+    .right-hand-side .play-button-and-stuff .btn{
+        width: 35px;
+        padding: 5px;
+        height: 50px;
+    }
+    
+}
+@media screen and (max-width: 794px){
+    .right-hand-side-playing-information{
+        margin-top: -1px;
+    }
+    .right-hand-side-playing-information img{
+        height: 190px;
+    }
+
+
+}
+
+/* Main Media Queries */
+@media screen and (max-width: 768px){
+    .JumboJumbo{
+        padding: 0 10px;
+    }
+    /* Left section */
+    .left-section{
+        display: none;
+    }
+    /* Right section */
+    .header-left-container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .header-left-container ul li{
+        font-size: 2vw;
+    }
+    .header-left{
+        padding-left: 10px;
+    }
+    #input{
+        width: 26vw;
+        font-size: 1.9vw;
+    }
+    .user-information{
+        margin-right: 10px;
+    }
+
+    /* Slideshow */
+    .slideshow{
+        height: 500px;
+        background: url("./Images/omah_lay.jpg") no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .slideshow div.hide .text-area{
+        margin-top: 100px !important;
+        padding-top: 0 !important;
+    }
+    .slideshow div.hide .text-area h6{
+        font-size: 5vw;
+    }
+    .slideshow div.hide .text-area h3{
+        font-size: 7vw;
+    }
+    .slideshow div.hide .text-area p a{
+        font-size: 4vw;
+    }
+    .slideshow div.hide .text-area p a.btn-slideshow-color-span{
+        font-size: 3.8vw;
+    } 
+    .image{
+        display: none;
+    }
+
+    /* Top Artist and Billboard Top Charts */
+    .footer-container{
+        padding-right: 4px !important;
+    }
+    .top-artist-and-billboard{
+        margin-bottom: 0;
+    }
+    .card ul li h6{
+        font-size: 3vw;
+    }
+    .card ul li a{
+        font-size: 2.9vw;
+    }
+    .card-body{
+        flex-direction: column;
+    }
+    .first-card-body{
+        margin-bottom: 20px;
+    }
+    .card .card-body .card-body-details img{
+        height: 250px;
+    }
+    .card .card-body .card-body-details a h5{
+        font-size: 3.5vw;
+    }
+    .card .card-body .card-body-details a h6{
+        font-size: 2.9vw;
+    }
+
+    /* Right-hand-side Container */
+    .right-hand-side-container{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .header-left-container ul li{
+        font-size: 3vw;
+    }
+    .input-container{
+       display : none;
+    }
+    #name-of-user{
+        font-size: 2.5vw;
+    }
+
+    /* Slid show */
+    .slideshow div.hide .text-area h6{
+        font-size: 6vw;
+    }
+    .slideshow div.hide .text-area h3{
+        font-size: 9vw;
+    }
+    .slideshow div.hide .text-area p a{
+        font-size: 5vw;
+    }
+    .slideshow div.hide .text-area p a.btn-slideshow-color-span{
+        font-size: 4.5vw;
+    }
+
+    /* Top artist and billboard */
+    .card ul li h6{
+        font-size: 4vw;
+    }
+    .card ul li a{
+        font-size: 3.4vw;
+    }
+    .first-card-body{
+        margin-bottom: 20px;
+    }
+    .card .card-body .card-body-details img{
+        height: 150px;
+    }
+    .card .card-body .card-body-details a h5{
+        font-size: 4vw;
+    }
+    .card .card-body .card-body-details a h6{
+        font-size: 3vw;
+    }
+    
+}
